@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.terry.niemingyangtest20134070211" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity android:name="test.niemingyang.MainActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="test.niemingyang.Change" >
+
+        </activity>
+        <activity android:name="test.niemingyang.Delete" >
+
+        </activity>
+        <activity android:name="test.niemingyang.Query" >
+
+        </activity>
+        <activity android:name="test.niemingyang.Show" >
+
+        </activity>
+        <activity android:name="test.niemingyang.Store" >
+
+        </activity>
+        <activity android:name="test.niemingyang.ShowOne" >
+
+        </activity>
+    </application>
+
+</manifest>
