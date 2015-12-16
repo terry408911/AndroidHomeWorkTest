@@ -30,6 +30,7 @@ public class Store extends AppCompatActivity {
         final EditText despEdit = (EditText)findViewById(R.id.editText5);
 
         Button store = (Button)findViewById(R.id.button3);
+        Button restore = (Button) findViewById(R.id.button9);
         final MyDatabase cd = new MyDatabase(this,"books.db",null,1);
 
         store.setOnClickListener(new View.OnClickListener() {
@@ -53,6 +54,15 @@ public class Store extends AppCompatActivity {
             }
         });
 
-
+        restore.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                isbnEdit.setText("");
+                nameEdit.setText("");
+                authorEdit.setText("");
+                publisherEdit.setText("");
+                despEdit.setText("");
+            }
+        });
     }
 }
