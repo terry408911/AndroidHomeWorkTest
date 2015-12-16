@@ -118,8 +118,17 @@
         android:layout_height="wrap_content"
         android:text="存入"
         android:id="@+id/button3"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="45dp" />
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/editText5"
+        android:layout_toEndOf="@+id/textView5" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="重置"
+        android:id="@+id/button9"
+        android:layout_alignTop="@+id/button3"
+        android:layout_alignEnd="@+id/editText5"
+        android:layout_marginEnd="53dp" />
 
 </RelativeLayout>
